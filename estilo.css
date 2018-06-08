@@ -3,6 +3,7 @@ body {
     margin: 60px auto 0;
     font-family: sans-serif;
     line-height: 1.5;
+    /* height: 800vh; */
 }
 
 h2 {
@@ -98,3 +99,19 @@ li a:hover{
     background-color: #7518f3;
 }
 
+/* img {
+    border: red 3px solid;
+    top: 70px;
+
+    position: relative; - relativo à posição inicial do elemento, não altera a estrutura da página
+
+    position: fixed; - relativo ao viewport, remove o elemento da estrutura da página
+
+    position: sticky; - define limites que o elemento tem que respeitar no viewport, não altera a estrutura da página
+
+    position: absolute; - relativo ao elemento 'pai' que tem um position definido - se nenhum tiver, relativo ao body, remove o elemento da estrutura da página.
+}
+
+article{
+    position: relative;
+} */
